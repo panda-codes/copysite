@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap);
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/* header */
+#nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#career, #Departments{
+    color: #adb5bd;
+}
+
+/* nav button hover */
+#about, #career:hover, #Departments:hover {
+    color: #00b39b;
+    text-decoration: none;
+}
+
+/* nav logo */
+#pic1{
+    width: 268px;
+}
+/* done with header */
+
+
+/* hero section */
+/* hero section logo */
+#pic2{
+    width: 40px;
+}
+
+/* hero section text */
+#more{
+    color: #00b39b;
+    font-size: 2rem;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+}
+/* done with hero section */
+
+
+/* section 2-showcase for cards */
+#firstc, #secondc, #thirdc{
+    background-color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+}
+/* done with section 2-showcase for cards */
+
+
+/* section 6 box-shadow and border radius */
+.section6:hover{
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+/* media query */
+@media (max-width:765px) {
+    /* section 3 local culture */
+    #picSection{
+        text-align: center;
+        position: relative;
+        left: 8px;
+    }
+    
+    #globaltext{
+        position: relative;
+        left: 100px;
+    }
+
+    .gp div{
+        padding-bottom: 25px;
+    }
+    /* done section 3 local culture */
+
+
+
+    /* section 4-social proof(sp) */
+    /* first row of social proof pics */
+    .sp{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        justify-content: space-around;
+    }
+
+    /* second row social proof pics */
+    .ssp{
+        display: flex;
+        justify-content: center;
+        left: 0.3px;
+        justify-content: space-around;
+    }
+    /* done with section 4-social proof(sp) */
+
+
+
+    /* section 6 - city cards(cc) */
+    .cc{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 114px;
+    }
+
+    .section6{
+        margin-bottom: 10px;
+    }
+    /* done with section 6 - city cards(cc) */
+}
+
